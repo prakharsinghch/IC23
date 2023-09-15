@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-const Landing = () => {
+const Landing = ({TitleText}) => {
   return (
     <Page>
       <Titles>
         <Subtitle>36 hour hackathon</Subtitle>
-        <Title>neXus</Title>
+        <Title className="NexusTitle">{TitleText}</Title>
         <Tagline>
           <Word>CODE</Word>
           <Word>CREATE</Word>
